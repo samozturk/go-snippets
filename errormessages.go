@@ -14,9 +14,10 @@ const (
 	ERROR
 )
 const (
-	InfoColor    = "\033[1;32m%s\033[0m"
-	WarningColor = "\033[1;33m%s\033[0m"
-	ErrorColor   = "\033[1;31m%s\033[0m"
+	InfoColor    = "\033[1;32m%s\033[0m" // Green
+	WarningColor = "\033[1;33m%s\033[0m" // Yellow
+	ErrorColor   = "\033[1;31m%s\033[0m" // Red
+	// Refer to https://www.shellhacks.com/bash-colors/ for different colors.
 )
 
 func showMessage(messageType messageType, message string) {
