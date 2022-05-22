@@ -1,0 +1,4 @@
+INFO: 10:16:19.660561 /Users/samet/Documents/Courses/go_ps/log2.go:29: This is info
+WARNING: 2022/05/22 13:16:19 log2.go:30: Oh no, a warning!
+ERROR: 2022/05/22 13:16:19 log2.go:31: Error! Please Stop.
+FATAL: 2022/05/22 13:16:19 log2.go:32: Program Quit
